@@ -17,8 +17,17 @@ function generatePassword() {
     alert("The password length has to be between 8 and 128 characters.");
     return '';
   }
+  
+  var useUppercase = confirm("Do you want to include uppercase letters?");
+  var useLowercase = confirm("Do you want to include lowercase letters?");
+  var useNumbers = confirm("Do you want to include numbers?");
+  var useSpecialChars = confirm("Do you want to include special characters?");
 
-var 
+  if (!useUppercase && !useLowercase && !useNumbers && !useSpecialChars) {
+    alert("Select at least one character set.");
+    return '';
+  }
+
 
 }
 
