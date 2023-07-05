@@ -1,5 +1,8 @@
 // Assignment code here
-
+var uppercaseLetters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+var lowercaseLetters = 'abcdefghijklmnopqrstuvwxyz';
+var numbers = '0123456789';
+var specialChars = '`~!@#$%^&*()-_=+[]{};:",.<>/?';
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
