@@ -13,6 +13,13 @@ function generatePassword() {
     return '';
   }
 
+  if (passwordLength < 8 || passwordLength > 128) {
+    alert("The password length has to be between 8 and 128 characters.");
+    return '';
+  }
+
+var 
+
 }
 
 // Get references to the #generate element
