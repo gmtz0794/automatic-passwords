@@ -4,6 +4,11 @@ var lowercaseLetters = 'abcdefghijklmnopqrstuvwxyz';
 var numbers = '0123456789';
 var specialChars = '`~!@#$%^&*()-_=+[]{};:",.<>/?';
 
+function generatePassword() {
+  var passwordLength = prompt("Enter the length of password:");
+  passwordLength = parseInt(passwordLength);
+}
+
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
 
