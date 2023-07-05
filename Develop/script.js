@@ -28,7 +28,27 @@ function generatePassword() {
     return '';
   }
 
+  var characterSet = '';
+  if (useUppercase) {
+    characterSet += uppercaseLetters;
+  }
+  if (useLowercase) {
+    characterSet += lowercaseLetters;
+  }
+  if (useNumbers) {
+    characterSet += numbers;
+  }
+  if(useSpecialChars) {
+    characterSet += specialChars;
+  }
 
+  var password = '';
+  for (var i = 0; i < passwordLength; i++) {
+    var randomIndex = Math.floor(Math.random() * characterSet.length);
+    password += characterSet.charAt(randomIndex);
+  }
+
+  return password;
 }
 
 // Get references to the #generate element
