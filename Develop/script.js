@@ -7,6 +7,12 @@ var specialChars = '`~!@#$%^&*()-_=+[]{};:",.<>/?';
 function generatePassword() {
   var passwordLength = prompt("Enter the length of password:");
   passwordLength = parseInt(passwordLength);
+
+  if (isNaN(passwordLength)) {
+    alert("Action Invalid. Please enter a number.");
+    return '';
+  }
+
 }
 
 // Get references to the #generate element
