@@ -15,7 +15,7 @@ Can be accessible through a website. It does not need to be installed.
 ## Usage
 
 When a user needs to generate a random password, it can be acquired by pressing the "Generate Password" button. After pressing, a few prompts will pop-up asking for certain specification. Such specifications include the use of uppercase letters, as well as lowercase. Also, it can include numbers and special characters. When choosing the password length it has to be in between 8 and 128 characters, otherwise an error will occur.
-
+![Alt text](Capture-1.JPG)
 ## Credits
 
 N/A
